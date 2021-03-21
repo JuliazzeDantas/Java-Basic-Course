@@ -14,6 +14,7 @@ public class BasicExample {
 		float grade = read.nextFloat();
 		
 		System.out.printf("%s's grade is %.2f", name, grade );
+		read.close();
 	}
 
 }
