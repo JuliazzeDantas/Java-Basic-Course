@@ -51,5 +51,13 @@ public class TestingLoops {
 		for(c = 0; c < 10; c++) {
 			System.out.println(c);
 		}
+		
+		int vector[] = {3,6,8,1,0,45,3,0};
+		
+		System.out.println();
+		System.out.println("For It");
+		for(int i : vector) { //only vectors
+			System.out.println(i);
+		}
 	}
 }
